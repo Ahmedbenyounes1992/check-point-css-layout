@@ -1,0 +1,210 @@
+.global_container{
+    max-width: 1115px;
+    margin: 0 auto;
+}
+.navi{
+ justify-content: flex-end;
+}
+.fixednavbar{
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: box-shadow .25s ease 0s !important;
+    z-index: 999;
+}
+.logo1{
+    max-width: 100%;
+    width: 268px;
+    height: 33px;
+}
+.item2:hover, .item3:hover{
+color: #00b39b !important;
+}
+.item1:visited{
+    color: #00b39b !important;
+}
+.healthcare{
+margin-top: 150px;
+}
+.logo2{
+    max-width: 100%;
+    width: 40px;
+    height: 39px;
+}
+.healthcare h1{
+    font-size: 2.125rem;
+    color: #00b39b;
+    text-align: center;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin: 0;
+}
+.logo2container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.textsection1{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+.p1,.p2{
+text-align:start;
+margin: 20px;
+}
+.cardsection{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.card1,.card2,.card3{
+    width:30% !important;
+    height: auto !important;
+}
+.card1{
+    background-color: #00b39b !important;
+}
+.card2{
+background-color: rgb(0, 195, 255) !important;
+}
+.card3{
+background-color:black !important ;
+}
+.card1img, .card2img, .card3img{
+    width: 25px;
+    height: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+h5{
+    color: white;
+}
+.pcard1, .pcard2, .pcard3 {
+    color: white;
+}
+.select1{
+    margin-top: 30% !important;
+}
+.select2{
+    margin: 10px 0px !important;
+}
+.brands_section{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.h1_brands{
+    width: 33%;
+    color: #00b39b;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+}
+.brands{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width:60%;
+}
+.brand{
+    margin-right :40px;
+}
+.platform{
+    width: 100%;
+    height: 600pxpx;
+    background-color: lightskyblue;
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+}
+.stats{
+    position: relative;
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   text-align: center;
+   max-width: 50%
+}
+.plat_logo{
+    width: 50%;
+    overflow: hidden;
+}
+.logo3{
+    margin-top: 15px;
+}
+.plat_logo h1, .plat_logo p {
+    text-align: center;
+    margin: 20px;
+}
+.cardstats{
+    width: 33%;
+    height: 42%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: #00b39b;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.leader{
+    margin-top: 70px;
+    margin-right: 20px;
+    padding: 10px;
+}
+.booked{
+    margin-top: 30px;
+    padding: 10px;
+}
+.doctor{
+    margin-bottom: 40px;
+    padding: 10px;
+}
+.patient{
+    margin-top: 30px;
+    padding: 10px;
+}
+.textsection2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px 0px;
+}
+.textcontainer{
+    width: 40%;
+}
+h1{
+    color: #00b39b;
+}
+p{
+    color: gray;
+}
+.cards{ 
+ margin-bottom: 30px;
+}
+.flexcard{
+    display: flex;
+    justify-content: space-between;
+}
+.joinsection{
+text-align: center;
+margin-top: 50px;
+}
+.joinsection h1 {
+    font-size: 2.1428571429em;
+    color: #333;
+    margin-bottom: 0.75em;
+}
+footer{
+    text-align: center;
+    font-size: 12px;
+    color: #ababab;
+    margin-top: 50px;
+    
+}
